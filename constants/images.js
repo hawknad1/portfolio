@@ -16,30 +16,36 @@ import nextjs from "../assets/nextjs.png";
 import bootstrap from "../assets/bootstrap.png";
 import react from "../assets/react.png";
 
-export const IMAGE = [
+export const INFO = [
   {
     image: backend,
     title: "Spotify Clone",
+    link: "https://github.com/hawknad1/streaming-app",
   },
   {
     image: frontend,
     title: "Airbnb Clone",
+    link: "https://github.com/hawknad1/airbnb",
   },
   {
     image: wordpress,
     title: "Emof Aluminium Ent",
+    link: "http://emofaluminium.com/",
   },
   {
     image: sanity,
-    title: "Spotify Clone",
+    title: "Deliveroo Clone",
+    link: "https://github.com/hawknad1/deliveroo-clone",
   },
   {
     image: web,
-    title: "Airbnb Clone",
+    title: "Portfolio Site",
+    link: "https://github.com/hawknad1/portfolio",
   },
   {
     image: wordpress,
     title: "Emof Aluminium Ent",
+    link: "https://github.com/hawknad1",
   },
 ];
 
@@ -93,8 +99,3 @@ export const SKILL = [
     title: "react",
   },
 ];
-
-// export default IMAGE = [
-//   { backend },
-//   { frontend },
-//   { wordpress }];

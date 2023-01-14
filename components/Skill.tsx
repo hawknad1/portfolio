@@ -21,12 +21,12 @@ export default function Skill({ directionLeft, image, title }: Props) {
           <Image
             src={image}
             alt=""
-            className="bg-white p-2 w-24 h-24 xl:h-28 xl:w-28 rounded-full object-contain filter group-hover:grayscale"
+            className="bg-white p-2 w-20 h-20 md:w-24 md:h-24 xl:h-28 xl:w-28 rounded-full object-contain filter group-hover:grayscale"
           />
         </motion.div>
-        <div className="absolute opacity-0 group-hover:opacity-80 transition rounded-full z-0 md:h-28 md:w-28 duration-300 ease-in-out h-24 w-24 group-hover:bg-white">
+        <div className="absolute opacity-0 group-hover:opacity-80 transition rounded-full xl:h-28 xl:w-28 z-0 md:h-24 md:w-24 duration-300 ease-in-out h-20 w-20 group-hover:bg-white">
           <div className="flex items-center justify-center h-full">
-            <p className="uppercase text-base font-bold text-black opacity-100">
+            <p className="uppercase text-sm md:text-base xl:text-lg font-bold text-black opacity-100">
               {title}
             </p>
           </div>

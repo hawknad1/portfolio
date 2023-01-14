@@ -16,24 +16,25 @@ export default function About({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-2xl text-gray-500">
         About
       </h3>
-      <motion.img
+      <motion.div
         initial={{ opacity: 0, x: -200 }}
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        src="https://i.pinimg.com/564x/ac/9d/d9/ac9dd9bd998c67b9857bb65e5f879798.jpg"
-        className="mb-10 mt-56 md:mb-0 w-56 h-56 rounded-full object-cover flex-shrink-0 md:rounded-lg md:w-64 md:h-95 xl:w-[420px] xl:h-[480px]"
-      />
+        className="mb-10 mt-56 md:mt-0 md:mb-0 w-56 h-56 object-cover flex-shrink-0  md:w-[300px] md:h-[350px] xl:w-[420px] xl:h-[480px]"
+      >
+        <Image src={me} alt="" className="rounded-full md:rounded-lg" />
+      </motion.div>
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">My Background</h4>
         <p className="text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-          voluptatum vel tempore necessitatibus doloremque consequatur et quia
-          ratione reprehenderit iste dignissimos, natus, quo earum praesentium
-          nulla. Eius quo animi dolor. Porro obcaecati id aliquid ut architecto
-          error similique quod reprehenderit vel quo consectetur adipisci quidem
-          nostrum aut iure dolores, sint laborum saepe perspiciatis placeat
-          quaerat. Impedit repudiandae molestias consequatur quis!
+          I have just over 2 years of experience as a junior software engineer
+          with Front-end Technologies. Over these years, I have created multiple
+          projects and worked as a freelance web designer/developer for a couple
+          of clients. I have In-depth experience in Vanilla JavaScript, React,
+          and other front-end technologies. Below you will find projects I've
+          completed that showcase my skills and general background in software
+          development.
         </p>
       </div>
     </motion.div>
