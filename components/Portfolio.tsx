@@ -14,15 +14,15 @@ export default function Portfolio({}: Props) {
           Portfolio
         </h1>
 
-        <div className=" md:grid md:grid-cols-2   xl:grid-cols-3 justify-center p-10 md:p-6 ">
+        <div className=" md:grid md:grid-cols-2 xl:grid-cols-3 justify-center p-10 md:p-6 ">
           {INFO.map((item, index) => (
-            <Link href={item.link}>
+            <Link href={item.link} className=" mr-auto ml-auto">
               <motion.div
                 key={index}
                 whileInView={{ opacity: 1 }}
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.5, type: "tween" }}
-                className="cursor-pointer p-4 mr-auto ml-auto"
+                className="cursor-pointer p-4"
               >
                 <Image
                   src={item.image}

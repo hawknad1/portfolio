@@ -25,7 +25,7 @@ export const INFO = [
   {
     image: frontend,
     title: "Airbnb Clone",
-    link: "https://github.com/hawknad1/airbnb",
+    link: "https://airbnb-eta-eosin.vercel.app/",
   },
   {
     image: wordpress,
