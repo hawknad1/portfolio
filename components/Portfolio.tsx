@@ -16,7 +16,7 @@ export default function Portfolio({}: Props) {
 
         <div className=" md:grid md:grid-cols-2 xl:grid-cols-3 justify-center p-10 md:p-6 ">
           {INFO.map((item, index) => (
-            <Link href={item.link} className=" mr-auto ml-auto">
+            <Link key={index} href={item.link} className=" mr-auto ml-auto">
               <motion.div
                 key={index}
                 whileInView={{ opacity: 1 }}

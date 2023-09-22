@@ -20,7 +20,7 @@ export default function Skill({ directionLeft, image, title }: Props) {
         >
           <Image
             src={image}
-            alt=""
+            alt="Image of Framework"
             className="bg-white p-2 w-20 h-20 md:w-24 md:h-24 xl:h-28 xl:w-28 rounded-full object-contain filter group-hover:grayscale"
           />
         </motion.div>
