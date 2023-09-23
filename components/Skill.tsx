@@ -1,11 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { SKILL } from "../constants/images";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 type Props = {
   directionLeft?: boolean;
-  image: string;
+  image: string | StaticImageData;
   title: string;
 };
 
